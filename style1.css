@@ -145,53 +145,14 @@ margin-bottom:30px;
   font-size:18px;
   line-height:1.8;
 }
-   .contact{
-  padding:80px 20px;
-  text-align:center;
+.contact-links {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 20px;
 }
 
-.contact h1{
-  font-size:42px;
-  color:#ffd700;
-  margin-bottom:30px;
-}
-
-.contact-box{
-  display:flex;
-  justify-content:center;
-  gap:30px;
-  flex-wrap:wrap;
-
-  background:rgba(255,255,255,0.06);
-  border:1px solid rgba(255,255,255,0.12);
-
-  backdrop-filter:blur(10px);
-
-  padding:25px;
-  border-radius:20px;
-
-  width:80%;
-  margin:auto;
-}
-
-.contact-box a{
-  text-decoration:none;
-
-  color:white;
-
-  background:rgba(255,255,255,0.08);
-
-  padding:12px 25px;
-
-  border-radius:12px;
-
-  transition:0.3s;
-}
-
-.contact-box a:hover{
-  color:black;
-  background:#ffd700;
-}
   footer p:first-child{
 
   font-size:22px;
