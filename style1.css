@@ -1,12 +1,5 @@
 body{
-    background-image:url("images/bg3.jpeg");
-    background-size:cover;
-    background-position:center;
-    background-repeat:no-repeat;
-    background-attachment:fixed;
-    margin:0;
-    padding:0;
-    color:white;
+    background:red;
 }
 p{
     font-size:18px;
