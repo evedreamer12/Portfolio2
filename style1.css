@@ -153,20 +153,20 @@ margin-bottom:30px;
     margin-top: 20px;
 }
 
-  footer p:first-child{
-
-  font-size:22px;
-
-  color:#ff8c00;
-
-  font-style:italic;
-
-  font-weight:700;
-
-  text-shadow:
-  0 0 10px #ff8c00,
-  0 0 20px #ff8c00,
-  0 0 30px #ff8c00;
+ .tagline {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: 22px;
+    font-style: italic;
+    color: #ffd700;
+    text-shadow: 0 0 15px #ffd700;
+}
+    footer {
+    text-align: center;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    color: #ddd;
 }
 
 footer p:first-child{
