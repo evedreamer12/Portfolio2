@@ -1,88 +1,104 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>My Portfolio</title>
-    <link rel="stylesheet" href="style1.css">
-</head>
-<body>
-  <section class="hero">
-  <img src="profilephoto.jpeg" alt="My Photo" class="profile-photo">
-    
-    <h4>Welcome to My Portfolio</h4>   
-    <h1>Poorvang Mesta </h1>
-     <p>Photographer • Videographer </p>
-    <p>Passionate about capturing cinematic moments,
-BTS coverage, and creative storytelling through visuals.
-</p>
-    <h1>Skills</h1>
-    <div class="skill-box">
-⚡Photography <br>
-⚡Videography <br>
-⚡Video Editing<br>
-⚡Mulitasking
-</div>
-   
-<h1>Tools</h1>
-    <div class="tool-box">
-⚡DaVinci Resolve<br>
-⚡VN Editor<br>
-⚡Lightroom
-</div>
-    
-    <section class="experience">
-  <h1>Work Experience</h1>
-<div class="experience-box">
-    <h3>Freelance Experience</h3>
-    <p>Assisted in 8 destination weddings.</p>
-    <p>Captured emcee-led games and stage activities during wedding events.</p>
+body{
+    background-image: url("bg3.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: Arial, sans-serif;
+}
 
-    <h3>Vindalo</h3>
-    <p>Created 30+ promotional reels.</p>
-    <p>Worked on 4 trailers and BTS coverage.</p>
-    <p>Contributed to production, camera work, art direction and a small acting role.</p>
-</div>
-</section>
-    <section class="about">
+.hero{
+    text-align: center;
+    padding: 50px 20px;
+}
 
-  <h1>About Me</h1>
+.profile-photo{
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid white;
+    margin-bottom: 20px;
+}
 
-  <div class="about-box">
+h1{
+    color: #ffd700;
+    text-align: center;
+    margin-top: 40px;
+}
 
-    <p>
-      I am passionate about videography,
-      photography, and cinematic storytelling.
-      I enjoy capturing creative visuals,
-      BTS moments, and editing engaging
-      promotional content.
-      <br><br>
-      I have worked on wedding shoots,
-      event coverage, promotional reels,
-      trailers, and production projects.
-      I also have experience in camera work,
-      art direction, and creative shoot planning.
-    </p>
+h3{
+    color: #ffd700;
+}
 
-  </div>
-<div class="contact-links">
-    <a href="https://instagram.com/poorvang_21">Instagram</a>
-    <a href="mailto:poorvangbmesta@gmail.com">Email</a>
-    <a href="tel:+919511730108">Phone</a>
-</div>
+p{
+    font-size: 18px;
+    color: #ffffff;
+    line-height: 1.8;
+}
 
-</section>
-<footer>
+.hero h4{
+    color: yellow;
+    font-size: 28px;
+}
 
-  <p>Every frame tells a story.</p>
+.skill-box,
+.tool-box,
+.experience-box,
+.about-box{
+    background: rgba(255,255,255,0.08);
+    border: 1px solid rgba(255,255,255,0.15);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 20px;
+    width: 80%;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+}
 
-  <br>
+.experience,
+.about{
+    text-align: center;
+    padding: 20px;
+}
 
-  <p>© 2026 Poorvang Mesta | All Rights Reserved</p>
+.contact-links{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
 
-</footer>
+.contact-links a{
+    text-decoration: none;
+    background: rgba(0,0,0,0.7);
+    color: white;
+    padding: 12px 25px;
+    border-radius: 10px;
+}
+.contact-links a:hover{
+    transform:translateY(-3px);
+    box-shadow:0 0 15px rgba(255,215,0,0.5);
+}
 
-
-</section>
-</section>
-</body>
-</html>
+ .tagline{
+    text-align:center;
+    color:#FFD700;
+    font-size:24px;
+    font-weight:600;
+    text-shadow:0 0 15px #FFD700;
+    margin-top:40px;
+    margin-bottom:20px;
+}
+   footer{
+    text-align:center;
+    color:white;
+    padding-bottom:30px;
+    font-size:18px;
+} 
 
